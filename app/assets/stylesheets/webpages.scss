@@ -1,5 +1,5 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
+// @import "bootstrap-sprockets";
+// @import "bootstrap";
 
 *{
   list-style: none;
@@ -55,11 +55,13 @@ article{
   padding: 3%;
   h1{
     margin-top: 0;
+    margin-left: 5%;
   }
   li{
     margin-left: 2%;
     margin-top: 1%;
    a{
+    font-weight: bold;
     color: black;
     display: block;
     &:hover{
