@@ -12,7 +12,8 @@ module BootstrapSample
     config.load_defaults 5.1
 
     ### 追加
-    config.assets.paths << "/node_modules/bootstrap/fonts"
+    config.assets.precompile += %w(*.eot *.svg *.ttf *.woff)
+    config.assets.paths << "#{Rails}/vendor/assets/fonts"
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
