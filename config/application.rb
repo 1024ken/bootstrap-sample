@@ -12,7 +12,7 @@ module BootstrapSample
     config.load_defaults 5.1
 
     ### 追加
-    config.assets.paths << "#{bootstrap_sample}/node_modules/bootstrap/fonts"
+    config.assets.paths << "/node_modules/bootstrap/fonts"
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
