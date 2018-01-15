@@ -1,6 +1,13 @@
 nav{
-    height: 70px;
+  height: 70px;
 }
+
+/*確認のため追加*/
+ul .nav .navbar-nav li{
+  background-color: white;
+  height: 300px;
+}
+/*　*/
 
 .list-group{
   margin-left: 3%;
